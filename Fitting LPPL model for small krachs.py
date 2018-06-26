@@ -95,7 +95,6 @@ plt.show()
 #
 t_start = "2014-09-01"
 t_end = "2015-06-01"
-#a=np.datetime64('2002-06-28').astype(datetime)
 
 data["Date"] = pd.to_datetime(data["Date"])
 mask = (data['Date'] > t_start) & (data['Date'] <= t_end)
