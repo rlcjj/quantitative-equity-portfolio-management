@@ -39,17 +39,6 @@ plt.show()
 #%%
 
 #creating the volatility list (high-low)/(open+close)
-class Open_csv:
-    def __init__(self):
-        pass
-        
-    def open(self,path_to_file):
-        data = np.asarray(pd.read_csv(path_to_file, delimiter=",").values)
-        return data
-
-open_csv = Open_csv()
-# open high low close
-
 def f(vector):
     return (vector[2]-vector[3])/(vector[1]+vector[4])
     
