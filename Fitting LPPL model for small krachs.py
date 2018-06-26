@@ -1,5 +1,5 @@
 
-# coding: utf-8
+#Coding LPPL model and fitting CAC40 campanies stocks data
 
 # In[373]:
 
@@ -145,5 +145,3 @@ r_squared = 1 - (ss_res / ss_tot)
 print(r_squared)
 print("popt=",popt)
 print("tc=",popt[4])
-
-# <h1>Extra functions (only for basinhopping method)</h1>
